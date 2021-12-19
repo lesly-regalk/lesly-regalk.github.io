@@ -12,13 +12,13 @@ body   {
 
 /* styling our overall page */
 body     {
-  background: #FFF;
-  font-family: Arial, Helvetica, sans-serif;
+  background: #23272a;
+  font-family: 'Fira Mono', monospace;
 }
 
 /* styling our header */
 header   {
-  background: #222;
+  background: rgb(39, 36, 36);
   color: #FFF;
   padding: 20px 30px;
 }
@@ -67,9 +67,8 @@ nav ul li a:hover   {
 
 /* styling our footer */
 footer   {
-  background: #ff9696;
-  font-family: Roboto;
-  color: #11111;
+  background: #23272a;
+  color: #FFF;
   padding: 40px;
   text-align: center;
 }
@@ -84,21 +83,19 @@ footer img   {
 .hero           {
   min-height: 800px;
   text-align: center;
-  background-image: url('../img/sky.jpg');
+  background-image: url('../img/sky.png');
   background-size: cover;
 }
 .hero-content   {
-  color: #FFF;
+  color: rgb(255, 255, 255);
   padding-top: 130px;
 }
 .hero-content h1   { 
-  font-family: 'Petit Formal Script', cursive;
+  font-style: italic;
   font-size: 100px;
   margin: 0;
 }
 .hero-content p    {
-
-  font-family: 'Petit Formal Script', cursive;
   font-size: 50px;
 }
 .hero-content a    {
@@ -118,16 +115,19 @@ footer img   {
   padding-top: 50px;
 }
 .site-section-secondary   {
-  background: #eeeeee;
+  background: #414141;
+  color:rgb(255, 255, 255)
 }
 .site-section-inside   {
+  color:rgb(255, 255, 255);
   width: 80%;
+  background: #36393f;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 20px 30px;
+
 }
 .section-header {
-  
-  font-family: Roboto;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -141,13 +141,14 @@ footer img   {
 
 /* feature boxes */
 .feature-box   {
-  display: inline-block;
-  width: 33%;
+  text-align: center;
   padding: 20px 30px;
 }
 .feature-box img  {
+  margin: auto;
+  display: block;
   margin-bottom: 12px;
-  width: 80px;
+  width: 400px;
 }
 .feature-box h5   {
   font-size: 20px;
