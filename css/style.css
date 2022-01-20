@@ -13,7 +13,7 @@ body   {
 /* styling our overall page */
 body     {
   background: #23272a;
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Minecraft', sans-serif;
 }
 
 /* styling our header */
@@ -83,7 +83,7 @@ footer img   {
 .hero           {
   min-height: 800px;
   text-align: center;
-  background-image: url('../img/sky.png');
+  background-image: url('https://c.tenor.com/3jGku-xx0ZgAAAAd/minecraft-shader.gif');
   background-size: cover;
 }
 .hero-content   {
@@ -115,7 +115,7 @@ footer img   {
   padding-top: 50px;
 }
 .site-section-secondary   {
-  background: #414141;
+  background:  	#212121;
   color:rgb(255, 255, 255)
 }
 .site-section-inside   {
@@ -171,9 +171,7 @@ footer img   {
   border-radius: 4px;
   margin-bottom: 15px;
 }
-.testimonial-author           {
 
-}
 .testimonial-author img {
   float: left;
   width: 80px;
